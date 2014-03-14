@@ -1,1 +1,41 @@
-img.blur { width:367; height:459px; -webkit-filter: blur(3px); -moz-filter: blur(3px); -o-filter: blur(3px); -ms-filter: blur(3px); filter: blur(3px); }
+body {
+    background:url('../img/pedreiro.jpg')
+
+     no-repeat top center   ;
+  
+    background-size: 100% auto;
+
+
+
+
+}
+
+
+
+h1 {
+
+	text-align:center;
+	font-family: 'atrament-web', Helvetica, Arial, Verdana, sans-serif;
+	color: white;
+	font-size: 40px;
+}
+
+header {
+
+
+.blur {
+    background:url('../img/pedreiro.jpg');
+    no-repeat center;
+    background-size:cover;
+    -webkit-filter: blur(13px);
+    -moz-filter: blur(13px);
+    -o-filter: blur(13px);
+    -ms-filter: blur(13px);
+    filter: blur(13px);
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+
+}
