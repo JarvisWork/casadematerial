@@ -15,9 +15,12 @@ body {
 h1 {
 
 	text-align:center;
-	font-family: 'atrament-web', Helvetica, Arial, Verdana, sans-serif;
-	color: white;
-	font-size: 40px;
+	font-family: arial,helvetica,freesans,sans-serif;
+	font-size: 20px;
+	font-size: 3em;
+    color: #fff;
+	margin: 60px 0 20px 0%;
+	line-height: 1.1em;
 }
 
 header {
@@ -37,5 +40,9 @@ header {
     height:100%;
 }
 
+footer {
+
+
+}
 
 }
