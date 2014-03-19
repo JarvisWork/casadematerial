@@ -1,11 +1,12 @@
-<!DOCTYPE html>
 
-<html>
-<head> </head>
-<body> </body>
+
+
 
 <h1>Formulario de inscricao </h1>
-<form action="."> method="POST"> 
+<form action="."  method="POST"> 
+
+{%csrf_token%}
+
 
 <p>
 	<label for = "id_name">Nome</label>
@@ -13,18 +14,38 @@
 
 </p>	
 
+<p>
+	<label for = "nome_usuario">Nome</label>
+	<input id = "nome_usuario" type="text" name= "name" maxlength="100"/>
+
+</p>
 
 <p>
-	<label for = "id_cpf">CPF</label>
-	<input id = "id_name" type="text" name= "name" maxlength="100"/>
+	<label for = "email">Email</label>
+	<input id = "email" type="text" name= "email" maxlength="100"/>
+
+
+</p>
+
+<p>
+	<label for = "telefone">Telefone</label>
+	<input id = "telefone" type="text" name= "telefone" maxlength="100"/>
+
+
+</p>
+
+<p>
+	<label for = "senha">Crie uma senha</label>
+	<input id = "senha" type="password" name= "email" maxlength="100"/>
+
 
 </p>
 
 
-
+<p>
+<input type="submit" value="enviar!" class="button"> 
+</p>
 
 
 </form>
 
-</body>
-</html>

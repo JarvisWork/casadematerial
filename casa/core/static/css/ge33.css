@@ -1,0 +1,160 @@
+#glb-menu .submenu-aba-n1, #glb-menu .submenu-aba-n2 {
+    background-image: url("sprite_menu_item_ge.png") !important ;
+}
+
+.cabecalho-produto .marca-produto {
+    -moz-background-clip: border;
+    -moz-background-origin: padding;
+    -moz-background-size: auto auto;
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: url("ge4.png");
+    background-position: 0 26px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 180px;
+    height: 50px;
+}
+
+#siteLogo {
+    background-color: transparent;
+    background-image: url("ge4.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 27px;
+    margin-bottom: 10px;
+    width: 180px;
+}
+
+#glb-corpo a {
+color: #3b9c00; /* cor dos links*/
+}
+
+#glb-corpo a:hover {
+color: #3b9c00; /* cor dos links com o mouse em cima*/
+}
+
+#glb-menu .menu-borda-baixo {
+background-color: #3b9c00 !important; /* cor da linha de baixo do menu*/
+display: block;
+}
+
+body .cor-produto-border, body .cor-produto-border-hoverhover {
+    border-color: #3b9c00 !important;
+}
+
+body .cor-produto-color, body .cor-produto-colorhover {
+	color: #3b9c00 !important; 
+}
+
+body .cor-produto-background {
+    background-color: #3b9c00 !important;
+
+}
+
+#glb-diretorio {
+    background-color: #3b9c00; /*Cor de fundo do diretorio*/
+}
+
+#glb-diretorio .divisoria {
+    border-left :1px solid #37910B; /*Cor da divisoria do diretorio*/
+    padding-left: 8px;
+}
+
+#glb-rodape, #glb-rodape .glb-conteudo {
+    background-color: #37910B; /*Cor de fundo do rodape*/
+}
+
+#glb-rodape .copyright {
+    color: #FFFFFF; /*Cor da fonte do rodape*/
+}
+
+.barra-superior {
+    background: none repeat scroll 0 0 #146D40; /*cor da barra de pesquisa*/
+}
+
+.widget-titulo {
+border-top: 2px solid #146D40 !important;
+}
+
+.carrosselproduto .nav-carrosselproduto a.on {
+    color: #3b9c00 !important; /*cor da bolinha do carrossel*/
+}
+
+#glb-rodape .glb-rodape-globocom {
+    background: url("logo_globo_rodape.png") no-repeat scroll 0 0 transparent; /*Imagem da globo.com do rodape*/
+    height: 22px;
+}
+
+#glb-rodape a, #glb-rodape {
+    color: #FFFFFF;
+}
+
+#glb-menu ul.menu-itens li a {
+	text-transform: none;  /*Tira letras maisculas a cada palavra do menu*/
+}
+
+body .cor-produto-border, body .cor-produto-border-hover:hover {
+    border-color: #3b9c00 !important; /*Cor da borda de item de menu no hover*/
+}
+
+.cor-produto-color, .cor-produto-color-hover:hover {
+    color: #3b9c00 !important; /*cor dos itens de menu no hover*/
+}
+
+.glb-topo #busca-padrao,
+#header-produto #busca-padrao {
+  float: right;
+  margin-top: 20px !important;
+  z-index: 20;
+  width: 300px;
+}
+.glb-topo #busca-padrao button,
+#header-produto #busca-padrao button {
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-box-shadow: 1px 0px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 0px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 0px 1px rgba(0, 0, 0, 0.2);
+  background: none;
+}
+.glb-topo #busca-padrao button:hover,
+#header-produto #busca-padrao button:hover {
+  -webkit-transition: background-color, 0.2s;
+  -moz-transition: background-color, 0.2s;
+  -o-transition: background-color, 0.2s;
+  transition: background-color, 0.2s;
+}
+.glb-topo #busca-padrao .sugestao-hover,
+#header-produto #busca-padrao .sugestao-hover {
+  background-color: #3ea909;
+}
+
+#glb-doc #busca-padrao,
+#header-produto #busca-padrao {
+  margin-top: 40px;
+  width: 340px;
+}
+#glb-doc #busca-padrao input,
+#header-produto #busca-padrao input {
+  border-right: 1px solid #dfdfdf;
+  border-radius: 0 4px 4px 0;
+  width: 298px;
+}
+#glb-doc #busca-padrao button,
+#header-produto #busca-padrao button {
+  display: none;
+}
+#glb-doc #busca-padrao #sugestoes,
+#header-produto #busca-padrao #sugestoes {
+  width: 298px;
+}
+#glb-doc #busca-padrao .textoSugestoes,
+#header-produto #busca-padrao .textoSugestoes {
+  background: none;
+}
