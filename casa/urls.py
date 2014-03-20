@@ -10,6 +10,8 @@ urlpatterns = patterns('',
                        
     url(r'^$','casa.core.views.home', name='home'),
     url(r'inscricao/$', 'casa.subscriptions.views.subscribe',name='subscribe'),
+    url(r'anuncios/$', 'casa.poster.views.posters',name='posters'),
+    
     
     url(r'^admin/', include(admin.site.urls)),
 )

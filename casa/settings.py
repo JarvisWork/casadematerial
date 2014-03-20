@@ -39,7 +39,9 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'casa.core',    
-    'casa.subscriptions'          
+    'casa.subscriptions',  
+    'casa.poster',
+    'casa.shop'        
 )
 
 MIDDLEWARE_CLASSES = (
